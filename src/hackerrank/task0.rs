@@ -1,12 +1,12 @@
-// https://www.hackerrank.com/challenges/simple-array-sum/problem
-fn simple_array_sum(aa: &[i32]) -> i32 {
+﻿// https://www.hackerrank.com/challenges/simple-array-sum/problem
+#[allow(dead_code)]
+pub fn simple_array_sum(aa: &[i32]) -> i32 {
     let mut x: i32 = 0;
     for a in aa {
         x += a
     }
     x
 }
-
 #[test]
 fn test0() {
     let aa = vec![10, 11, 12];
